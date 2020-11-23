@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("Hi there!")
+	cards := newDeck()
+	cards.shuffle()
+	cards.print()
 }
